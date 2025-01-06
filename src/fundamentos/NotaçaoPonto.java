@@ -12,6 +12,8 @@ public static void main(String[] args) {
 	 s = s.replace("X","Luiz");
 	 System.out.println(s);
 	 
+	String x = "fellipe".toUpperCase();
+	 System.out.println(x);
 	 
 	 
 	 
