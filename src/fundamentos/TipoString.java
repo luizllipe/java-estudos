@@ -33,7 +33,7 @@ public class TipoString {
 		System.out.println("Frase qualquer".contains("qual"));
 		System.out.println("Frase qualquer".indexOf("qual"));
 		System.out.println("Frase qualquer".substring(6));
-		System.out.println("FFrase qualquer".substring(6, 10));
+		System.out.println("Frase qualquer".substring(6, 10));
 		
 	}
 	
