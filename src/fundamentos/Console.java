@@ -15,10 +15,10 @@ public class Console {
     	System.out.printf("Nome: %s%n", "joao");
     	
     	Scanner entrada =  new Scanner(System.in);
-    	 System.out.print("Digite seu nome: ");
+    	 System.out.print("Digite seu nome:");
     	 String  nome = entrada.nextLine();
     	 
-    	 System.out.print("Digite o seu sobrenome: ");
+    	 System.out.print("Digite o seu sobrenome:");
     	String sobrenome = entrada.nextLine();
     	 
     	System.out.print("Digite a sua idade: ");
