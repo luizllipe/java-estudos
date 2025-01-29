@@ -8,7 +8,7 @@ public class DesafioConversao {
 		
 		Scanner teclado = new Scanner(System.in);
 System.out.println("Funcionário 1 Digite seu salário");
-String salario = teclado.next();
+String salario = teclado.next().replace(",", ".");
 		 System.out.println("Funcionário 2 Digite seu salário");
 String salario2 = teclado.next();
 		 System.out.println("Funcionário 3 Digite seu salário");
@@ -20,6 +20,6 @@ String salario3 = teclado.next();
 	    double soma = (func1 + func2 + func3);
 	    System.out.println("A soma dos salários é " + soma);
 	    double media = (soma / 3);
-	    
+	    teclado.close();
 	}
 }
