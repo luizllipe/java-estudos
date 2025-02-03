@@ -1,32 +1,25 @@
-package fundamentos;
+ package fundamentos;
 
 public class inferenncia {
-public static void main(String[] args) {
-	double a = 4.5; // declaraçao e inicialiazaçao 
-	System.out.println(a);
-	a =12;
-	System.out.println(a); 
+ public static void main(String[] args) {
 	
-	// a = "...";
-	
-	var b = 4.5;
-	System.out.println(b); 
-	var c = "texto";
- 	System.out.println(c);
- 	
- 	c = "Texto";
- 	System.out.println(c);
- 	
- 	// c = 4.5;
- 	
- 	double d; // variavel foi declarada 
- 	d = 123.65; // variavel foi inicialiazada 
- 	System.out.println(d); // usada!
- 	 var e = 123.45; 
- 	 System.out.println(e);
- 	 
- 	  var f = 12; // inteiro
- 	  // f = 12.01;
- 	  System.out.println(f);
+		// Bloco 1 esquerda
+		int a = 6 * (3+2);
+		int ab = (int) Math.pow(a , 2);
+		int abc = ab / 6;
+		
+		// Bloco 2 direita
+		int b = (1 - 5)* (2 - 7) / 2;
+		int ba = (int)Math.pow(b , 2);
+		
+		int c = abc - ba;
+		int ca = (int) Math.pow(c , 3); // Resultado parte de cima
+		
+		// Parte de baixo
+		int d = 10;
+		int da = (int) Math.pow(d ,3);
+		
+		System.out.println(ca / da); //Resultado
 }
 }
+
