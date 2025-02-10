@@ -1,6 +1,6 @@
 package fundamentos.operadores;
 
-public class DesafioLogicos {
+public class DesafioLogicos{
 	 public static void main(String[] args) {
 		 // Trabalho na terça
 		 // Trabalho na quinta
@@ -19,5 +19,4 @@ public class DesafioLogicos {
 		 boolean sorvete = trabalho1  ||  trabalho2;
 		 System.out.println("A familia tomou sorvete? " + sorvete);
 		 System.out.println("Mais saudável? " + !sorvete);
-	}
-}
+
