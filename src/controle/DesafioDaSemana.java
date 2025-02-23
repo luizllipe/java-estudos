@@ -26,12 +26,6 @@ public class DesafioDaSemana {
 			 System.out.println("7");
 		 }
 		 
-		 
-		 
-		 
-		 
-		 
-		 
 		 entrada.close();
 	}
 }
