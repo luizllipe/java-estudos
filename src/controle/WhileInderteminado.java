@@ -9,7 +9,7 @@ public class WhileInderteminado {
 		
 		 while(!valor.equalsIgnoreCase("sair")) {
 			 System.out.print("Você diz: ");
-			 valor = entrada.nextLine();	
+			 valor = entrada.nextLine();		
 		 }
 		 
 		 entrada.close();
