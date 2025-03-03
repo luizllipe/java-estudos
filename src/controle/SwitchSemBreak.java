@@ -36,7 +36,7 @@ public class SwitchSemBreak {
 			System.out.println("Sabe andar");
 		case 0:
 			System.out.println("Sabe respirar");
-		
+		 
 			
 		}
 	} 
