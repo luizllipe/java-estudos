@@ -1,14 +1,11 @@
 package controle;
-
-import java.util.Iterator;
-
-public class BreakRotulado {
+class ContinueRotulado {
 	public static void main(String[] args) {
 		externo: 
 			for (int i = 0; i < 3; i++) {
 				for (int j = 0; j < 3; j++) {
 					if(i == 1) {
-						break externo;
+					continue externo;
 					}
 					System.out.printf("[%d %d] ", i,j);
 					
@@ -18,5 +15,3 @@ public class BreakRotulado {
 			System.out.println("Fim!");
 	}
 }
-
-
