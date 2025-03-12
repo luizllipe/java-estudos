@@ -18,12 +18,7 @@ public class Exercicio3 {
 			System.out.println("Reprovado!");
 		}
 		
-		
-		
-		
-		
-		
-		
+	
 	entrada.close();	
 
 			
