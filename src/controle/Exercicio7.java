@@ -1,7 +1,7 @@
 package controle;
 
 import java.util.Scanner;
-
+ 
 public class Exercicio7 {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
@@ -24,5 +24,6 @@ public class Exercicio7 {
 
 		System.out.println("Finalizou o progama.................................");
 		entrada.close();
+		
 	}
 }
