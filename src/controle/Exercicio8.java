@@ -15,8 +15,7 @@ public class Exercicio8 {
 		while (contador < 10) {
 			System.out.println("Digite um número: ");
 			int num = entrada.nextInt();
-			//if (num > numeroMaior) {
-				
+			
 			numeroMaior = Math.max(numeroMaior, num);
 			
 			contador ++;
