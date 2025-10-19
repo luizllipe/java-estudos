@@ -41,7 +41,7 @@ public class Mapa {
 		for(Entry<Integer, String> registro: usuarios.entrySet()) {
 			System.out.print(registro.getValue() + " ==> ");
 			System.out.println(registro.getValue());
-		}
+		}	
 		
 	}
 }
