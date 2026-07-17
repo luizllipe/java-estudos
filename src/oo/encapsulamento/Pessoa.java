@@ -8,7 +8,7 @@ public class Pessoa {
 	public Pessoa(int idade) {
 		setNome(nome);
 		setIdade(idade);
-		
+		 
 	}
 	
 	public String getNome() {
